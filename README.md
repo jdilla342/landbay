@@ -39,8 +39,8 @@ Replace <month> with the desired month in the format YYYY-MM, and <category> wit
 Example usage:
 
 Copy code
-  '''
+```
 python case_plot.py 2023-06 --category Commercial
-  '''
+```
 The script will generate a bar plot of completed cases based on the provided month and category.
 
