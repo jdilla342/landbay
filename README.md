@@ -10,7 +10,7 @@ This script generates a plot of completed cases based on a provided month and an
 * matplotlib
 
 ### Dataset
-The dataset should be in the same directory as the script and named **data_task_part_1.csv**. Please ensure that the dataset is in the correct format with the required columns: **APPLICATION_SUBMITTED_DATE**, **COMPLETED_DATE**, and **PROPERTY_CATEGORY**.
+The dataset should be in the same directory as the script and named **'data_task_part_1.csv'**. Please ensure that the dataset is in the correct format with the required columns: **'APPLICATION_SUBMITTED_DATE'**, **'COMPLETED_DATE'**, and **'PROPERTY_CATEGORY'**.
 
 ### Usage
 Clone the repository or download the script file case_plot.py.
