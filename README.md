@@ -5,7 +5,7 @@
 This script generates a plot of completed cases based on a provided month and an optional property category. It loads data from a CSV file, filters it based on the given month and category, calculates the completion time, and generates a bar plot.
 
 ### Prerequisites
-* Python 3.x
+* Python 3.8 or later
 * pandas
 * matplotlib
 
@@ -13,25 +13,23 @@ This script generates a plot of completed cases based on a provided month and an
 The dataset should be in the same directory as the script and named **'data_task_part_1.csv'**. Please ensure that the dataset is in the correct format with the required columns: **'APPLICATION_SUBMITTED_DATE'**, **'COMPLETED_DATE'**, and **'PROPERTY_CATEGORY'**.
 
 ### Usage
-Clone the repository or download the script file case_plot.py.
+1. Clone the repository or download the script file case_plot.py.
 
-Ensure that Python 3.8 or later is installed on your system.
+2. Ensure that Python 3.8 or later is installed on your system.
 
-Install the required dependencies by running the following command:
+3. Install the required dependencies by running the following command:
 
-Copy code
 ```
 pip install pandas matplotlib
 ```
-Place the dataset file (data_task_part_1.csv) in the same directory as the script.
+4. Place the dataset file (data_task_part_1.csv) in the same directory as the script.
 
-Open a command-line or terminal window.
+5. Open a command-line or terminal window.
 
-Navigate to the directory containing the script and dataset.
+6. Navigate to the directory containing the script and dataset.
 
-Run the script using the following command:
+7. Run the script using the following command:
 
-Copy code
 ```
 python case_plot.py <month> --category <category>
 ```
@@ -39,7 +37,6 @@ Replace <month> with the desired month in the format YYYY-MM, and <category> wit
 
 Example usage:
 
-Copy code
 ```
 python case_plot.py 2023-06 --category Commercial
 ```
