@@ -1,17 +1,18 @@
 # landbay Case Plot
 
-Private landbay technical test repo
+## Private landbay technical test repo
 
 This script generates a plot of completed cases based on a provided month and an optional property category. It loads data from a CSV file, filters it based on the given month and category, calculates the completion time, and generates a bar plot.
 
-Prerequisites
+### Prerequisites
 Python 3.x
 pandas
 matplotlib
-Dataset
-The dataset should be in the same directory as the script and named data_task_part_1.csv. Please ensure that the dataset is in the correct format with the required columns: APPLICATION_SUBMITTED_DATE, COMPLETED_DATE, and PROPERTY_CATEGORY.
 
-Usage
+### Dataset
+The dataset should be in the same directory as the script and named **data_task_part_1.csv**. Please ensure that the dataset is in the correct format with the required columns: **APPLICATION_SUBMITTED_DATE**, **COMPLETED_DATE**, and **PROPERTY_CATEGORY**.
+
+### Usage
 Clone the repository or download the script file case_plot.py.
 
 Ensure that Python 3.x is installed on your system.
