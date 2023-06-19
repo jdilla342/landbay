@@ -19,7 +19,9 @@ Ensure that Python 3.x is installed on your system.
 Install the required dependencies by running the following command:
 
 Copy code
+'''
 pip install pandas matplotlib
+'''
 Place the dataset file (data_task_part_1.csv) in the same directory as the script.
 
 Open a command-line or terminal window.
@@ -28,15 +30,17 @@ Navigate to the directory containing the script and dataset.
 
 Run the script using the following command:
 
-php
 Copy code
+'''
 python case_plot.py <month> --category <category>
+'''
 Replace <month> with the desired month in the format YYYY-MM, and <category> with an optional property category.
 
 Example usage:
 
-css
 Copy code
+  '''
 python case_plot.py 2023-06 --category Commercial
+  '''
 The script will generate a bar plot of completed cases based on the provided month and category.
 
