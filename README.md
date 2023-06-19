@@ -1,6 +1,6 @@
 # landbay Case Plot
 
-## Private landbay technical test repo
+## Landbay technical test repo
 
 This script generates a plot of completed cases based on a provided month and an optional property category. It loads data from a CSV file, filters it based on the given month and category, calculates the completion time, and generates a bar plot.
 
