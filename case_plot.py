@@ -52,6 +52,13 @@ if __name__ == '__main__':
         transformed_data = calculate_completion_time(filtered_data)
         grouped_data = group_and_count(transformed_data)
 
+        # Check if any data is available for the given month and category
+        if grouped_data.empty:
+            if args.category:
+                raise ValueError(f"No data available for the month {args.month} and category '{args.category}'.")
+            else:
+                raise ValueError(f"No data available for the month {args.month}.")
+
         # Generate the plot
         generate_plot(grouped_data, args.month, args.category)
 
