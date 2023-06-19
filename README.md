@@ -15,7 +15,7 @@ The dataset should be in the same directory as the script and named **'data_task
 ### Usage
 Clone the repository or download the script file case_plot.py.
 
-Ensure that Python 3.x is installed on your system.
+Ensure that Python 3.8 or later is installed on your system.
 
 Install the required dependencies by running the following command:
 
