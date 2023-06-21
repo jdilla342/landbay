@@ -20,6 +20,7 @@ def filter_by_category(df, category):
     return df
 
 def calculate_completion_time(df):
+    df = df.copy()
     df['COMPLETED_DATE'] = pd.to_datetime(df['COMPLETED_DATE'])
     df['COMPLETION_TIME'] = (df['COMPLETED_DATE'] - df['APPLICATION_SUBMITTED_DATE']).dt.days / 30
     return df
